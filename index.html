@@ -1,61 +1,130 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-        <link rel="stylesheet" href="css/theme/sky.css">
+	<title>Business guilds and corporate huddles</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/sky.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-                <section>
-                    <h1>Business Guilds</h1>
-                </section>
-                <section>
-                    <h3>The Guilds</h3>
-                    <p>A medieval association of craftsmen or merchants, often having considerable power</p>
-                    <p>An association of people for mutual aid or the pursuit of a common goal</p>
-                </section>
-                <section>
-                    <h2>Corporate Huddles</h2>
-                </section>
-                <section>
-                    <p>Meetings that allow for quick, horizontal decision making among peers</p>
-                </section>
-			</div>
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+	<style type="text/css">
+		.def {
+			font-style: italic;
+			font-weight: bold
+		}
+
+		p {
+			text-align: left;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<h1>Business Guilds</h1>
+			</section>
+			<section>
+				<p><span class="def">Guild:</span> A medieval association of craftsmen or merchants, often having considerable
+					power</p>
+				<img src="http://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/3039521/guild.jpg">
+			</section>
+			<section>
+				<p><span class="def">Business Guild: </span> An association of people for mutual aid or the pursuit of a common
+					goal</p>
+				<ul>
+					<li>Knowledge domain</li>
+					<li>Community of enthusiasts</li>
+					<li>Set of tools and practices</li>
+				</ul>
+				<img src="https://img.grouponcdn.com/deal/4Vh69GJjsbazuDTEwur3jAqChixY/4V-700x420/v1/c700x420.jpg">
+			</section>
+			<section>
+				<h2>Connection: Software as craft</h2>
+				<ul>
+					<li>Learn a craft</li>
+					<li>Master-Apprentice relationships (Mentoring)</li>
+					<li>Social networking (community)</li>
+					<li>Proper ways to perform the craft (Practices)</li>
+				</ul>
+			</section>
+			<section>
+				<h2>Why?</h2>
+				<ul>
+					<li>Learn from others</li>
+					<li>Share ideas</li>
+					<li>Standardize ways of working</li>
+					<li>Mentor and be mentored</li>
+					<li>Explore new technologies, tools, practices</li>
+					<li>Improvement of the company domain, and the industry</li>
+				</ul>
+				</section>
+			</section>
+			<section>
+				<h2>Corporate Huddles</h2>
+			</section>
+			<section>
+				<ul>
+					<li>Meetings that allow for quick, horizontal decision making among peers</li>
+					<li>Peers talking to peers about a central discussion</li>
+					<li>Small version of a business guild</li>
+					<li>Facilitate formation of <span class="ref">Tribes</span></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Why?</h2>
+				<ul>
+					<li>Less micromanagement</li>
+					<li>More cross-functional (and informal) communication</li>
+					<li>Communication facilitator (user requirements, documentation, QA definition, tech, etc)</li>
+					<li>Knowledge sharing</li>
+				</ul>
+			</section>
+			<section>
+				<h1>How?</h1>
+			</section>
+			<section>
+				<ul>
+					<li>Find alike minds</li>
+					<li>Get together (Brown bag lunches, sponshorship, meetups, etc.)</li>
+					<li>No politics</li>
+					<li>Code of conduct</li>
+				</ul>
+			</section>
 		</div>
+	</div>
 
-		<script src="js/reveal.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+	</script>
+</body>
+
 </html>
